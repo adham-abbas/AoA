@@ -1,0 +1,104 @@
+html {
+  height: 100%;
+}
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background: linear-gradient(darkblue, black);
+}
+
+.chat {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 500px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+.chat h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+.chat input {
+  width:670px;
+  margin-top: 350px;
+  margin-left: -35;
+  font-size: 20px;
+  border-color: dodgerblue;
+  color:#fff;
+  border-radius: 50px 50px 50px 50px;
+  border-bottom: 2px solid dodgerblue;
+  background: linear-gradient(darkblue, black);
+}
+.chat a{
+  font-size: 18px;
+  margin-left: -5px;
+  color: #fff;
+  border-color: dodgerblue;
+  border: 2px solid dodgerblue;
+  border-radius: 100%;
+
+}
+.chat a:hover {
+  background: dodgerblue;
+  color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 0 5px dodgerblue,
+              0 0 25px dodgerblue,
+              0 0 50px dodgerblue,
+              0 0 100px dodgerblue;
+}
+#input {
+        border: none;
+        padding: 0 1rem;
+        flex-grow: 1;
+        border-radius: 2rem;
+        margin: 0.25rem;
+       margin-left: -40px;
+      }
+      #input:focus {
+        outline: none;
+      }
+button{
+    font-size: 16px;
+  margin-left: 1.5px;
+    background:linear-gradient(darkblue, black);
+  color: white;
+  border-color: dodgerblue;
+  border: 2px solid dodgerblue;
+  border-radius: 50px 50px 50px 50px;
+
+}
+button:hover{
+    background: dodgerblue;
+  color: #fff;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 0 0 5px dodgerblue,
+              0 0 25px dodgerblue,
+              0 0 50px dodgerblue,
+              0 0 100px dodgerblue; 
+}
+ #messages {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        color: azure;
+      }
+      #messages > li {
+        padding: 0.5rem 1rem;
+        border-radius: 50px 50px 50px 50px;
+          margin-left: -40px;
+      }
+
+      #messages > li:nth-child(odd) {
+        background:#b388ff;
+        margin-left: -40px;
+      }
